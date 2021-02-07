@@ -35,20 +35,20 @@ export default function Home() {
      <QuizContainer>
        <Widget>
        <Widget.Header>
-          <h1>Aqui um Titulo</h1>
+          <h1>Quiz Chapp vol. 1</h1>
            </Widget.Header>
          <Widget.Content>         
-          <p>Aqui temos uma descrição</p>
+          <p>Divirta-se com seus colegas de trabalho!</p>
          </Widget.Content>        
        </Widget>
     
 
        <Widget> 
          <Widget.Header>
-          <h1>Aqui outro  Titulo</h1>
+          <h1>O melhor Quiz para integrações</h1>
           </Widget.Header>
         <Widget.Content>         
-          <p>Aqui temos uma descrição</p>
+          <p>Descrição...</p>
         </Widget.Content>
        </Widget>
        <Footer />

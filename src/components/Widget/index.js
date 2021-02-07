@@ -2,8 +2,8 @@ import styled from 'styled-components';
 const Widget = styled.div`
 margin-top:24px;
 margin-bottom:24px;
-border: 1px solid ${({ theme }) => theme.colors.success};
-background-color:${({ theme }) => theme.colors.mainBg};
+border: 1px solid ${({ theme }) => theme.colors.sucess};
+background-color:${({ theme }) => theme.colors.primary};
 border-radius:4px;
 overflow:hidden;
 
@@ -26,7 +26,7 @@ display:flex;
 justify-content:flex-start;
 align-items:center;
 padding: 18px 32px;
-background-color: ${({ theme }) => theme.colors.success};
+background-color: ${({ theme }) => theme.colors.mainBg};
 *{
 margin:0;
 }

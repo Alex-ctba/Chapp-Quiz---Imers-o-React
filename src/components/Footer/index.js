@@ -29,7 +29,7 @@ export default function Footer(props) {
   return (
     // eslint-disable-next-line react/jsx-props-no-spreading
     <FooterWrapper {...props}>
-      <a href="https://www.alura.com.br/">
+      <a href="https://github.com/Alex-ctba">
          <img src="../assets/logo.png" alt="Logo Chapp Quiz!"/>
       </a>
       <p>
@@ -37,8 +37,8 @@ export default function Footer(props) {
         {' '}
         a
         {' '}
-        <a href="https://www.alura.com.br/">
-          <span>Projeto Chapp QUiz</span>
+        <a href="https://github.com/Alex-ctba">
+          <span>Meu Github</span>
         </a>
       </p>
     </FooterWrapper>
