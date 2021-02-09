@@ -37,8 +37,8 @@ export default function Footer(props) {
         {' '}
         a
         {' '}
-        <a href="https://github.com/Alex-ctba">
-          <span>Meu Github</span>
+        <a href="https://www.linkedin.com/in/atnctba/">
+          <span>Linkedin</span>
         </a>
       </p>
     </FooterWrapper>
