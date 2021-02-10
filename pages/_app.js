@@ -1,5 +1,5 @@
-import { createGlobalStyle, ThemeProvider } from 'styled-components'
-import db from '../db.json'
+import { createGlobalStyle, ThemeProvider } from 'styled-components';
+import db from '../db.json';
 
 const GlobalStyle = createGlobalStyle`
 *{
@@ -12,7 +12,7 @@ body{
   flex-direction:column;
   font-family:'Lato', sans-serif;
   //deixa em branco no inicio
-  color:${({ theme }) => theme.colors.constrastText };
+  color:${({ theme }) => theme.colors.constrastText};
 }
 
 html, body{
@@ -23,20 +23,19 @@ html, body{
   display:flex;
   flex-direction:column;
 }
-`
+`;
 
-//trocando a config. abaixo pela config aqui que importei do db.json
-const theme = db.theme;
-
+// trocando a config. abaixo pela config aqui que importei do db.json
+const { theme } = db;
 
 export default function App({ Component, pageProps }) {
   return (
-    <>     
-   
-      <ThemeProvider theme={theme}> 
-      <GlobalStyle />   
-        <Component {...pageProps} />       
+    <>
+
+      <ThemeProvider theme={theme}>
+        <GlobalStyle />
+        <Component {...pageProps} />
       </ThemeProvider>
     </>
-  )
+  );
 }

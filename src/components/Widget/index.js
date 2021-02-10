@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+
 const Widget = styled.div`
 margin-top:24px;
 margin-bottom:24px;
@@ -21,7 +22,7 @@ p{
   color: #efefefef;
 }
 `;
-Widget.Header =styled.header`
+Widget.Header = styled.header`
 display:flex;
 justify-content:flex-start;
 align-items:center;
@@ -46,4 +47,4 @@ padding:0;
 }
 `;
 
-export default  Widget;
+export default Widget;

@@ -30,7 +30,7 @@ export default function Footer(props) {
     // eslint-disable-next-line react/jsx-props-no-spreading
     <FooterWrapper {...props}>
       <a href="https://github.com/Alex-ctba">
-         <img src="../assets/logo.png" alt="Logo Chapp Quiz!"/>
+        <img src="../assets/logo.png" alt="Logo Chapp Quiz!" />
       </a>
       <p>
         Projeto Criado na Imersão React js
