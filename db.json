@@ -1,6 +1,6 @@
 {
     "bg": "https://articles.gamerheadquarters.com/images/top10/xbox/8.jpg",
-    "title": "Chapp_Quiz",
+    "title": "Quiz Chapp",
     "description": "Um exemplo dos meus Estudos",
     "questions": [
       {
@@ -44,8 +44,8 @@
       }
     ],
     "external": [
-      "https://aluraquiz-css.omariosouto.vercel.app/",
-      "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
+      "https://github.com/Alex-ctba",
+      "https://www.instagram.com/alekis_ctba/"
     ],
     "theme": {
       "colors": {

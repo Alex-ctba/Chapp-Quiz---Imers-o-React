@@ -8,18 +8,29 @@ background-color:${({ theme }) => theme.colors.primary};
 border-radius:4px;
 overflow:hidden;
 
-h1, h2, h3{
-  font-size:16px;
+h1{
+  font-size:20px;
   font-weight:700;
   line-height:1;
   margin-bottom:0;
   color:#ffffff;
+  font-family: 'Fredoka One', cursive;
+}
+h2, h3{
+  font-size:25px;
+  font-weight:700;
+  line-height:1;
+  margin-bottom:0;
+  color:#ffffff;
+  font-family: 'Nunito', sans-serif;
+  text-align:'center';
 }
 p{
-  font-size:14px;
+  font-size:16px;
   font-weight:400;
   line-height:1;
-  color: #efefefef;
+  color: #fefefe;
+  text-align:'justify';
 }
 `;
 Widget.Header = styled.header`

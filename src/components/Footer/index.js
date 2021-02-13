@@ -11,6 +11,9 @@ const FooterWrapper = styled.footer`
     width: 58px;
     margin-right: 23px;
   }
+  p{
+    color:#ddd;
+  }
   a {
     color: white;
     text-decoration: none;
@@ -30,12 +33,12 @@ export default function Footer(props) {
     // eslint-disable-next-line react/jsx-props-no-spreading
     <FooterWrapper {...props}>
       <a href="https://github.com/Alex-ctba">
-        <img src="../assets/logo.png" alt="Logo Chapp Quiz!" />
+        <img src="" alt="Logo Chapp Quiz!"/>
       </a>
       <p>
-        Projeto Criado na Imersão React js
+        Aplicação desenvolvida com Next.js | React js | 
         {' '}
-        a
+        
         {' '}
         <a href="https://www.linkedin.com/in/atnctba/">
           <span>Linkedin</span>
