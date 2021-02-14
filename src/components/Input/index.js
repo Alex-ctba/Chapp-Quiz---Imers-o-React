@@ -1,28 +1,30 @@
 import React from 'react'
 import styled from 'styled-components'
 
-//Criando componente input e seu Css
+//Css do componente
 const InputBase = styled.input`
     width:100%;
     padding:15px;
+    font-size:16px;
     border:1px solid ${({ theme }) => theme.colors.primary};
     color: ${({ theme })=> theme.colors.constrastText};
     background-color:${({ theme }) => theme.colors.mainBg};
     border-radius:${({ theme }) => theme.borderRadius};
     outline:0;
     margin-bottom: 25px;
-    color:#ddd;
-    font-size:1em;
+    font-family:'nunito';
     font-weight:bold;
-    font-family:'Nunito', sans-serif;
+    color:#ddd;
     text-transform:uppercase;
 `;
- 
 //criando o componente
-export default function Input({ onChange }){
+export default function Input({ onChange, placeholder }){
     return (
         <div>
-           <InputBase onChange={onChange} />
+           <InputBase 
+          placeholder={placeholder}//recebe o placeholder para exibir na tela
+           onChange={onChange}//recebe o evento de modificação 
+           /> 
         </div>
     );
 } 

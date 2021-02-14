@@ -1,3 +1,4 @@
+import React from 'react'
 import styled from 'styled-components';
 
 // src/components/Footer/index.js
@@ -40,7 +41,7 @@ export default function Footer(props) {
         {' '}
         
         {' '}
-        <a href="https://www.linkedin.com/in/atnctba/">
+        <a href="https://www.linkedin.com/in/atnctba/" >
           <span>Linkedin</span>
         </a>
       </p>

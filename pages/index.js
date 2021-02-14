@@ -29,23 +29,17 @@ export default function Home() {
           </Widget.Header>
           <Widget.Content>
             <form onSubmit={function(event){
-              event.preventDefault();                    
-             router.push(`/quiz?name=${name}`) //Resgatando nome pelo queryparams
-              console.log('fazendo uma submissão aqui')
-
-              //configurar aqui o router para enviar a outra pagina...
-            }} >
-             
-           <Input onChange={function(event){
-            //  name = event.target.value
-            //  console.log(name)
-            setName(event.target.value)//setName pega o valor do input e passa para o componente renderizando-o. 
+                event.preventDefault();
+                router.push(`/quiz?name=${name}`)
+            }} 
+            >
+            <Input onChange={function(event){
+              setName(event.target.value);
             }}
-            placeholder="Seu nome para iniciarmos!" 
-            />  
-                        
-            <button type="submit" disabled={name.length === 0}>Jogar</button> {/*desabilitando button jogar se variavel 
-            nome estiver vazia*/} 
+            placeholder="Insira seu nome para Jogar" />
+            
+            <button type="submit" disabled={name.length === 0}>Jogar</button>
+            
             </form>
           </Widget.Content>
         </Widget>

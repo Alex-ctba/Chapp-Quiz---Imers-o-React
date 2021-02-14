@@ -45,7 +45,7 @@
     ],
     "external": [
       "https://github.com/Alex-ctba",
-      "https://www.instagram.com/alekis_ctba/"
+      "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
     ],
     "theme": {
       "colors": {
@@ -54,7 +54,12 @@
         "mainBg": "#213f4e",
         "contrastText": "#FFFFFF",
         "wrong": "#FF5722",
-        "success": "#4CAF50"
+        "success": "#4CAF50",
+        "rustico1":"#5E5C2D",
+        "rustico2":"#E3DF92",
+        "rustico3":"#DFD96C",
+        "rustico4":"#5E5D4A",
+        "rustico5":"#ABA652"
       },
       "borderRadius": "4px"
     }
