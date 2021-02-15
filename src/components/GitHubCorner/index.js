@@ -1,4 +1,4 @@
-// src/components/GitHubCorner/index.js
+ 
 import React from 'react';
 import styled from 'styled-components';
 
@@ -11,8 +11,8 @@ const Wrapper = styled.div`
 `;
 
 const SVGWrapper = styled.svg`
-  fill: ${({ theme }) => theme.colors.secondary};
-  color: ${({ theme }) => theme.colors.contrastText};
+  fill: ${({ theme }) => theme.colors.black};
+  color: ${({ theme }) => theme.colors.black};
   cursor: pointer;
   &:hover .octo-arm{
     animation:octocat-wave 560ms ease-in-out

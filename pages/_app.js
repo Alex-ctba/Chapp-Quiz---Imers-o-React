@@ -14,7 +14,7 @@ body{
   flex-direction:column;
   font-family:'Lato', sans-serif;
   //deixa em branco no inicio
-  color:${({ theme }) => theme.colors.constrastText};
+  color:${({ theme }) => theme.colors.secondary};
 }
 
 html, body{

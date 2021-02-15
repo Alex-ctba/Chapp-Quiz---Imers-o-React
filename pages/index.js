@@ -8,6 +8,8 @@ import GitHubCorner from '../src/components/GitHubCorner';
 import QuizBackground from '../src/components/QuizBackground';
 import QuizContainer from '../src/components/QuizContainer';
 import Input from '../src/components/Input';
+import Button from '../src/components/Button';
+
 
 export default function Home() {
   const router = useRouter();
@@ -29,18 +31,21 @@ export default function Home() {
           </Widget.Header>
           <Widget.Content>
             <form onSubmit={function(event){
-                event.preventDefault();
-                router.push(`/quiz?name=${name}`)
-            }} 
-            >
-            <Input onChange={function(event){
-              setName(event.target.value);
-            }}
-            placeholder="Insira seu nome para Jogar" />
-            
-            <button type="submit" disabled={name.length === 0}>Jogar</button>
-            
+               event.preventDefault();
+               router.push(`/quiz?name=${name}`)
+                }} 
+                >
+                  <Input 
+                  name="nomeDoUsuario"
+                  onChange={function(event){
+                    setName(event.target.value);
+                  }}
+                placeholder="Insira seu nome para Jogar" 
+                value={name}
+                />            
+              <Button type="submit" disabled={name.length === 0}>Jogar</Button>            
             </form>
+
           </Widget.Content>
         </Widget>
         <Widget>

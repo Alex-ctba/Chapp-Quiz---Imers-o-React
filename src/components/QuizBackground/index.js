@@ -1,4 +1,4 @@
-// src/components/QuizBackground/index.js
+ 
 import styled from 'styled-components';
 
 const QuizBackground = styled.div`
@@ -6,7 +6,7 @@ const QuizBackground = styled.div`
   background-size: cover;
   background-position: center;
   background-image: url(${({ backgroundImage }) => backgroundImage});
-  background-color: ${({ theme }) => theme.colors.success};
+  background-color: ${({ theme }) => theme.colors.primary};
   flex: 1;
   min-height:100vh;
   @media screen and (max-width: 500px) {
@@ -16,7 +16,7 @@ const QuizBackground = styled.div`
       background-size: cover;
     background-position: center;
       background-image:
-        linear-gradient(transparent, ${({ theme }) => theme.colors.success}),
+        linear-gradient(transparent, ${({ theme }) => theme.colors.secondary}),
         url(${({ backgroundImage }) => backgroundImage});
       display: block;
       width: 100%;
